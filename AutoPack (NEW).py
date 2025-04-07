@@ -1,4 +1,6 @@
-
+# BETA TESTING
+# Some packs may break, report an issue
+# W's in the chat for breter
 import bpy, os, shutil, zipfile, time, requests, pyperclip, json #type:ignore
 from PIL import Image
 
