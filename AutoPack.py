@@ -64,6 +64,8 @@ pickaxes = ["wood_pickaxe.png", "stone_pickaxe.png", "iron_pickaxe.png", "diamon
 items = ["apple_golden.png", "ender_pearl.png", "emerald.png", "diamond.png", "iron_ingot.png"]
 bow = ["bow_standby.png", "bow_pulling_0.png", "bow_pulling_1.png", "bow_pulling_2.png"]
 blocks = ["wool_colored_blue.png", "wool_colored_red.png", "wool_colored_green.png", "wool_colored_yellow.png", "wool_colored_white.png"]
+# Paste your API Key in this variable
+api_key = ""
 sky = ["cloud1.png"] # Note: you can choose your own sky by going into assets/minecraft/mcpatcher/sky/world0
 # Set the base folder where your images are stored (or will be).
 base_folder = r""
@@ -115,8 +117,6 @@ if os.path.exists(os.path.join(base_folder, "cloud1.png")):
     splitSky(sky_path)
 else:
     print("Sky not found!")
-# Paste your API Key in this variable
-api_key = ""
 def create(image_name):
     if os.path.exists(os.path.join(base_folder, f"{image_name}.png")):
         # Replace with your image name (no extension)
@@ -454,5 +454,4 @@ filter = {k: v for k, v in Textures.items() if v is not None}
 
 str = json.dumps(filter, indent=4)
 pyperclip.copy(str)
-
-print("Your pack is done! Make sure to credit us (you can use extra small text we just want credit thats all.")
+print("Thanks for using AutoPack. The pack is copied to your clipboard. Press CTRL + V to paste it")
