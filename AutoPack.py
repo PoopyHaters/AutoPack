@@ -1,4 +1,4 @@
-# Just to clarify: This document and all the text/code in it is owned by the BDPackUtils group including qAustria, muz011 and happypooky. Credit of using code is required at ANY type of remaster/skid.
+z# Just to clarify: This document and all the text/code in it is owned by the BDPackUtils group including qAustria, muz011 and happypooky. Credit of using code is required at ANY type of remaster/skid.
 # BETA TESTING
 # Some packs may break, report an issue
 # W's in the chat for breter
