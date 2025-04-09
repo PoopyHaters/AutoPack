@@ -205,7 +205,7 @@ def create(image_name):
         bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
 
         # Rotate object: X 90°, Y -45°
-        valid_names = ["iron_ingot", "diamond", "ender_pearl", "emerald", "apple_golden"]
+        valid_names = ["iron_ingot", "diamond", "ender_pearl", "emerald", "apple_golden", "golden_apple"]
         if image_name in valid_names:
                 obj.rotation_euler[0] = 90 * (3.14159265 / 180)  # Convert degrees to radians
         else:
