@@ -477,4 +477,4 @@ filter = {k: v for k, v in Textures.items() if v is not None}
 
 str = json.dumps(filter, indent=4)
 pyperclip.copy(str)
-print("Thanks for using AutoPack. The pack is copied to your clipboard. Press CTRL + V to paste it")
+print("Thanks for using AutoPack. The pack is copied to your clipboard. Press CTRL + V to paste it, You must credit AutoPack.")
